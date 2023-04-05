@@ -1,0 +1,20 @@
+.button-primary {
+    background-color: #1B1D37;
+    color: white;
+}
+
+.button-primary:hover {
+    background-color: #24264e;
+}
+
+.button-primary:active {
+    background-color: #5b61b8;
+}
+
+.button-primary svg {
+    color: white;
+}
+
+.button-transparent {
+    background-color: transparent;
+}

@@ -1,0 +1,40 @@
+.input {
+	border: 1px solid #D9D9D9;
+	color: #F2F2F2;
+	font-size: 16px;
+	border-radius: 0.23rem;
+	padding: 0.3rem;
+}
+
+.helper {
+	color: red;
+	font-size: 9pt;
+}
+
+.input:focus {
+	outline: none;
+	border-color: black;
+	color: black;
+}
+
+.title {
+	font-size: 11pt;
+}
+
+.form-control {
+	height: 100%;
+	gap: 10px;
+}
+
+.form-control.invalid label {
+	color: red!important;
+}
+
+.form-control.invalid input {
+	border-color: red!important;
+	color: red!important;
+}
+
+.form-control.invalid .helper {
+	color: red;
+}

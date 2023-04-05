@@ -1,0 +1,12 @@
+.header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.534);
+}
